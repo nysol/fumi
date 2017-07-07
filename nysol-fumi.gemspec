@@ -42,6 +42,7 @@ spec = Gem::Specification.new do |s|
 	s.require_path = "lib"
 	s.add_dependency "nysol" ,"~> 3.0.0"
   s.add_development_dependency "bundler", "~> 1.11"
+  s.add_development_dependency "rake", "~> 10.0"
 	s.description = <<-EOF
     nysol FUMI tools
   EOF
